@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+      <div class="header-inner flex items-center justify-between py-3">
+        <div class="header-left flex items-center">
+          <a class="header-logo me-[104px]" href="/index.html">
+            <img class="header-logo-pic" src="./assets/images/logo.svg" alt="logo" width="106" height="45"></a>
+          <nav class="header-nav  ">
+            <ul class="header-list flex items-center">
+              <li class="header-item me-[48px]"><a class="header-link" href="#">ホームページ</a></li>
+              <li class="header-item me-[48px]"><a class="header-link" href="#">サービス</a></li>
+              <li class="header-item me-[48px]"><a class="header-link" href="#">会社</a></li>
+              <li class="header-item me-[48px]"><a class="header-link" href="#">価格設定</a></li>
+            </ul>
+          </nav>
+        </div>
+        <button class="header-btn w-[156px] text-white py-[13.5px] flex items-center justify-center">資料請求する</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="hero-inner py-[80px] flex justify-between">
+          <div class="hero-left">
+            <div class="hero-infos ps-16 mb-[60px]">
+              <h1 class="hero-title mb-5">今の販売管理ツールでお悩みなら</h1>
+              <strong
+                class="hero-price bg-[#4A9C99] w-[140px] py-2.5 inline-block text-center text-white me-2.5">月額3.3</strong>
+              <p class="hero-desc inline-block">万円から使える</p>
+            </div>
+
+            <div class="hero-message ps-9 mb-[60px] ">
+              <p class="hero-info bg-[#F8DA49] w-[344px] text-center py-2.5 mb-[37px]">クラウドソリューション</p>
+              <img class="hero-message-pic" src="./assets/images/pic.png" alt="Picture" width="540" height="60">
+            </div>
+            <button class="hero-btn w-[600px] py-4 text-white">資料請求・導入のご相談はこちらから ▶ </button>
+          </div>
+          <div class="hero-right">
+            <img class="hero-pic" src="./assets/images/hero-pic.png" alt="Picture">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SALES -->
+    <section class="sales bg-[#F4F9F8]">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px] text-center">
+        <div class="sales-inner py-20">
+          <div class="sales-title-wrap w-[800px] mb-10  mx-auto">
+            <h2 class="sales-title "> 販売管理ツールはどれも同じように見えるけど、
+              実際に導入してみたらちょっとした不満が山積み。。。</h2>
+          </div>
+          <div class="sales-card-wrapper flex gap-10">
+            <div class="sales-card w-[360px] h-[360px]">
+              <span class="sales-name bg-[#4A9C99] py-2.5 block w-full text-white text-center ">費用のお悩み
+              </span>
+              <ul class="sales-list pt-5 flex flex-col gap-2.5 ps-10 pe-5 justify-start items-start list-disc">
+                <li class="sales-item">毎月のライセンス料が高くて辛い</li>
+                <li class="sales-item">今からツールを変えようとすると</li>
+                <li class="sales-item">データ移行だけで何百万と必要になってしまう</li>
+                <li class="sales-item">システム改修は費用が高い</li>
+                <li class="sales-item">ライセンス料以外にサーバー維持費など毎月の支払いが高くなっている</li>
+              </ul>
+            </div>
+            <div class="sales-card w-[360px] h-[360px]">
+              <span class="sales-name bg-[#4A9C99] py-2.5 block w-full text-white text-center">使いづらさのお悩み
+              </span>
+              <ul class="sales-list pt-5 flex flex-col gap-2.5 ps-10 pe-5 justify-start items-start list-disc">
+                <li class="sales-item text-left">今のシステムでは足りない機能がある</li>
+                <li class="sales-item text-left">何度も同じ入力作業に飽き飽きしている</li>
+                <li class="sales-item text-left">紙での契約もまだまだ使う必要がある</li>
+                <li class="sales-item text-left">今の業務にピッタリ合うツールがわからない</li>
+              </ul>
+            </div>
+            <div class="sales-card  w-[360px] h-[360px]">
+              <span class="sales-name bg-[#4A9C99] py-2.5 block w-full text-white text-center">外部アプリ連携でのお悩み
+              </span>
+              <ul class="sales-list pt-5 flex flex-col gap-2.5 ps-10 pe-5 justify-start items-start list-disc">
+                <li class="sales-item text-left">ECから都度販売データをインポートしてる</li>
+                <li class="sales-item text-left">会社の都合で会計ツールとの連携が必要</li>
+                <li class="sales-item text-left">結局レポートはEXCELでやっている</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUPPORT -->
+    <section class="support">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px] text-center">
+        <div class="support-inner py-20">
+          <h2 class="support-title mx-auto mb-10">私たちは中小企業のシステムを50年支援し続けてきました。</h2>
+          <ol class="support-list flex gap-10 flex-wrap">
+            <li class="support-item w-full  ">
+              <div class="support-name-wrap bg-[#D8663A] p-2.5 text-left"><span
+                  class="support-num bg-[#F9E8DB] inline-block px-[15.5px] py-[1px] me-[10px] text-[#D8663A] text-center">01</span><span
+                  class="support-name text-white">費用のお悩み</span>
+              </div>
+              <div class="support-item-inner flex items-center py-[72px] px-10">
+                <p class="support-desc me-10 text-left">法制度改正やシステムのバージョンアップによる、新たなシステム改変費用が不要です。
+                  サブスクリプション型の為、長期的な利用・コスト管理も可能です。</p>
+                <table class="support-table ">
+                  <thead>
+                    <tr class="flex">
+                      <th class="table-name w-[174.5px] py-3.5 inline-block bg-[#F6F6F6] border-w">モデルプラン</th>
+                      <th class="table-name w-[174.5px] py-3.5 inline-block border-w text-white bg-[#E9AD88]">5ユーザー</th>
+                      <th class="table-name w-[174.5px] py-3.5 inline-block border-w bg-[#863126] text-white">10ユーザー
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="table-info w-[174.5px] py-3.5 inline-block bg-[#F6F6F6] border-w">初期費用</td>
+                      <td class="table-info w-[174.5px] py-3.5 inline-block border-w">¥350,450</td>
+                      <td class="table-info w-[174.5px] py-3.5 inline-block border-w">¥400,000</td>
+                    </tr>
+                    <tr>
+                      <td class="table-info w-[174.5px] py-3.5 inline-block bg-[#F6F6F6] border-w">月額利用料</td>
+                      <td class="table-info w-[174.5px] py-3.5 inline-block border-w">¥53,300</td>
+                      <td class="table-info w-[174.5px] py-3.5 inline-block border-w">¥50,000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </li>
+
+            <li class="support-item w-[360px]">
+              <div class="support-name-wrap bg-[#D8663A] p-2.5 text-left"><span
+                  class="support-num text-[#D8663A] bg-[#F9E8DB] inline-block px-[15.5px] py-[1px] me-[10px]  ">02</span><span
+                  class="support-name text-white">導入後も安心のサポート体制</span></div>
+              <div class="support-item-inner p-5">
+                <p class="support-desc text-left">サポートセンターでわからないこと、ご相談はいつでも受付。簡単操作、2重入力不要でミスを防止します。</p>
+              </div>
+            </li>
+            <li class="support-item w-[360px]">
+              <div class="support-name-wrap bg-[#D8663A] p-2.5 text-left"><span
+                  class="support-num text-[#D8663A] bg-[#F9E8DB] inline-block px-[15.5px] py-[1px] me-[10px] ">03</span><span
+                  class="support-name text-white">御社独自にカスタマイズ</span></div>
+              <div class="support-item-inner p-5">
+                <p class="support-desc text-left">どうしても避けられない運用や、追加機能のご要望にもお応えできます。</p>
+            </li>
+            <li class="support-item w-[360px]">
+              <div class="support-name-wrap bg-[#D8663A] p-2.5 text-left"><span
+                  class="support-num text-[#D8663A] bg-[#F9E8DB] inline-block px-[15.5px] py-[1px] me-[10px] ">04</span><span
+                  class="support-name text-white">クラウド管理なので安心</span></div>
+              <div class="support-item-inner p-5">
+                <p class="support-desc text-left">クラウドサービスの為、サーバー維持管理が導入会社様では不要</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLAR -->
+
+    <section class="solar bg-[#F4F9F8]">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px] ">
+        <div class="solar-inner py-20">
+          <h2 class="solar-title text-center mb-10">ー　ソルクラでできるコストカット　ー</h2>
+          <div class="solar-infos-wrap flex flex-wrap gap-10">
+            <div class="solar-card px-2.5 pt-2.5 pb-5 w-[560px]">
+              <span class="solar-name block p-2.5 text-white text-center mb-5">毎月手動で送っていた請求書送付を自動化</span>
+              <p class="solar-info text-center mb-5"><span class="solar-price text-[#601A09]">年100万</span>円の削減</p>
+
+              <div class="solar-card-bottom flex justify-center gap-10">
+                <div class="solar-work w-[100px]">
+                  <span class="solar-hours bg-[#601A09] block text-white text-center p-1.5">追加10時間</span>
+                  <p class="solar-work-time bg-[#4A9C99] p-6 text-white text-center ">作業時間
+                    30時間</p>
+                </div>
+                <img class="solar-line" src="./assets/images/arrow-square-right.svg" alt="Picture">
+                <p class="solar-work-time bg-[#4A9C99] mt-[30px] text-white px-4 py-[26px] w-[80px] text-center">作業時間
+                  30時間</p>
+              </div>
+            </div>
+            <div class="solar-card px-2.5 pt-2.5 pb-5 w-[560px]">
+              <span class="solar-name block p-2.5 text-white text-center mb-5">毎月手動で送っていた請求書送付を自動化</span>
+              <p class="solar-info text-center mb-5"><span class="solar-price">年100万</span>円の削減</p>
+
+              <div class="solar-card-bottom flex justify-center gap-10">
+                <div class="solar-work w-[100px]">
+                  <span class="solar-hours bg-[#601A09] block text-white text-center p-1.5">追加10時間</span>
+                  <p class="solar-work-time bg-[#4A9C99] p-6 text-white text-center ">作業時間
+                    30時間</p>
+                </div>
+                <img class="solar-line" src="./assets/images/arrow-square-right.svg" alt="Picture">
+                <p class="solar-work-time bg-[#4A9C99] mt-[30px] text-white px-4 py-[26px] w-[80px] text-center">作業時間
+                  30時間</p>
+              </div>
+            </div>
+            <div class="solar-card px-2.5 pt-2.5 pb-5 w-[560px]">
+              <span class="solar-name block p-2.5 text-white text-center mb-5">毎月手動で送っていた請求書送付を自動化</span>
+              <p class="solar-info text-center mb-5"><span class="solar-price">年100万</span>円の削減</p>
+
+              <div class="solar-card-bottom flex justify-center gap-10">
+                <div class="solar-work w-[100px]">
+                  <span class="solar-hours bg-[#601A09] block text-white text-center p-1.5">追加10時間</span>
+                  <p class="solar-work-time bg-[#4A9C99] p-6 text-white text-center ">作業時間
+                    30時間</p>
+                </div>
+                <img class="solar-line" src="./assets/images/arrow-square-right.svg" alt="Picture">
+                <p class="solar-work-time bg-[#4A9C99] mt-[30px] text-white px-4 py-[26px] w-[80px] text-center">作業時間
+                  30時間</p>
+              </div>
+            </div>
+            <div class="solar-card px-2.5 pt-2.5 pb-5 w-[560px]">
+              <span class="solar-name block p-2.5 text-white text-center mb-5">毎月手動で送っていた請求書送付を自動化</span>
+              <p class="solar-info text-center mb-5"><span class="solar-price">年100万</span>円の削減</p>
+
+              <div class="solar-card-bottom flex justify-center gap-10">
+                <div class="solar-work w-[100px]">
+                  <span class="solar-hours bg-[#601A09] block text-white text-center p-1.5">追加10時間</span>
+                  <p class="solar-work-time bg-[#4A9C99] p-6 text-white text-center ">作業時間
+                    30時間</p>
+                </div>
+                <img class="solar-line" src="./assets/images/arrow-square-right.svg" alt="Picture">
+                <p class="solar-work-time bg-[#4A9C99] mt-[30px] text-white px-4 py-[26px] w-[80px] text-center">作業時間
+                  30時間</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ARTICLE FEE -->
+
+    <article class="fee">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="fee-inner py-20 text-center">
+          <div class="fee-inner-wrap w-[580px] mx-auto">
+            <div class="fee-top px-[19px]  flex justify-center items-center mb-6">
+              <img class="me-5" src="./assets/images/line-left.svg" alt="Picture">
+              <p class="fee-company bg-[#F8DA49] py-2.5 px-5 w-[127px] me-5 text-[#D8663A]">毎月3社
+                限定</p>
+              <h2 class="fee-title text-white me-5 text-left w-[287px]"> <span class="block">初期費用無料</span>
+                キャンペーン実施中</h2>
+              <img src="./assets/images/line-right.png" alt="Picture">
+            </div>
+            <button class="fee-btn w-full py-4 px-6 text-[#D8663A]">資料請求・導入のご相談はこちらから　▶</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- FEATURE -->
+
+    <section class="feature">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="feature-inner py-20">
+          <h2 class="feature-title text-center mb-10">ー　業務効率をUPさせる機能が充実　ー</h2>
+          <div class="feature-inner-wrapper w-[688px] mx-auto mb-10">
+            <div class="feature-top flex ">
+              <div class="feature-left flex flex-col me-3 ps-[31px]">
+                <strong
+                  class="feature-name inline-block w-[111px] py-3 px-[25px] text-white first-line-b mb-[63px] relative">受注管理
+
+                  <img class="first-pic absolute bottom-[-50px] h-[53px] left-[45%]"
+                    src="./assets/images/line-bottom-orange.png" alt="Picture" width="12" height="50">
+                </strong>
+                <strong
+                  class="feature-name second-card bg-[#E9AD88] inline-block py-3 px-[25px] text-white relative mb-[63px]  ">出荷管理
+                  <img class="second-pic absolute bottom-[-50px] h-[53px] left-[45%]"
+                    src="./assets/images/line-bottom.png" alt="Picture">
+                </strong>
+                <strong class="feature-name inline-block py-3 px-[25px] text-white relative mb-[63px] ">発注管理
+                  <img class="first-pic absolute bottom-[-50px] h-[53px] left-[45%]"
+                    src="./assets/images/line-bottom-orange.png" alt="Picture" width="12" height="50">
+
+                </strong>
+              </div>
+
+              <div class="feature-middle flex gap-3 items-center me-3 ">
+                <img class="mb-[60px]" src="./assets/images/line-flat-orange.png" alt="Picture">
+                <strong
+                  class="feature-name mb-[60px] second-card bg-[#E9AD88] inline-block py-3 px-[15px] text-center text-white w-[111px]">在庫管理</strong>
+                <img class="mb-[60px]" src="./assets/images/line-flat-orange.png" alt="Picture">
+              </div>
+
+              <div class="feature-right flex flex-col justify-center items-center">
+                <strong class="feature-name inline-block py-3 px-[25px] text-white first-line-b mb-[63px] relative">発注管理
+
+                  <img class="first-pic absolute bottom-[-50px] h-[53px] left-[45%]"
+                    src="./assets/images/line-bottom-orange.png" alt="Picture" width="12" height="50">
+                </strong>
+                <div class="feature-card w-[174px] text-center ">
+                  <span class="feature-card-name bg-[#E9AD88] block py-3 px-[25px] text-[#863126]">債権管理</span>
+                  <div class="feature-card-inner bg-[#FCF5F0] p-[25px]">
+                    <p class="feature-buy bg-[#FFF] py-3 px-[24px] mb-[25px] w-[125px]">仕入(入庫)</p>
+                    <p class="feature-buy bg-[#FFF] py-3 px-[24px] w-[125px] ">支払管理</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="feature-bottom flex items-end relative">
+
+              <div class="feature-card w-[174px] text-center ">
+                <span class="feature-card-name bg-[#E9AD88] block py-3 px-[25px] text-[#863126]">債権管理</span>
+                <div class="feature-card-inner bg-[#FCF5F0] p-[25px]">
+                  <p class="feature-buy bg-[#FFF] py-3 px-[24px] mb-[25px] w-[125px] text-[#D8663A]">売上管理</p>
+                  <p class="feature-buy bg-[#FFF] py-3 px-[24px] w-[125px] text-[#D8663A]">売上管理</p>
+                </div>
+              </div>
+
+              <strong class="feature-name inline-block py-3 px-[25px] text-white first-line-b ms-[105px] relative">
+                <img class="absolute left-[-87px] top-[20px]" src="./assets/images/line-right-orange.png" alt="Picture">
+                仕訳管理
+              </strong>
+              <img class=" linee absolute right-[85px] bottom-[18px]" width="214" src="./assets/images/Group 1.svg"
+                alt="Picture">
+            </div>
+
+          </div>
+
+          <div class="feature-report-wrapper flex flex-wrap gap-10">
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+            <div class="feature-report w-[360px]">
+              <div class="feature-report-top py-3 px-4  flex items-center ">
+                <img class="feature-img me-5" src="./assets/images/feature-card.svg" alt="Picture">
+                <span class="feature-report-name text-white">帳票管理機能</span>
+              </div>
+              <div class="feature-bottom py-[33px] px-5">
+                <p class="feature-report-info">テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト テキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト テキス</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--  TOOLS -->
+
+    <div class="tools">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="tools-inner py-20">
+          <div class="tools-top text-center mb-2.5">
+            <h2 class="tools-title mb-10">ー　外部ツールとの連携も可能　ー</h2>
+            <img class="tools-pic mx-auto mb-10" src="./assets/images/pic.png" alt="Picture">
+            <img class="tools-line" src="./assets/images/lines-gre.svg" alt="Picture">
+          </div>
+
+          <div class="tools-card-wrap flex justify-between">
+            <div class="tools-card w-[260px] flex flex-col justify-between p-2.5">
+              <strong class="tools-name block text-white text-center p-2.5">EC
+              </strong>
+              <ul class="tools-list flex flex-col gap-5 justify-center items-center pt-5 pb-2.5">
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/logiles.png" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/shopify.svg" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/shopify.svg" alt="Picture"></li>
+              </ul>
+            </div>
+
+            <div class="tools-card w-[260px] flex flex-col justify-between p-2.5">
+              <strong class="tools-name block text-white text-center p-2.5">CRM
+              </strong>
+              <ul class="tools-list flex flex-col gap-5 justify-center items-center pt-5 pb-2.5">
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/hubspot.svg" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/hubspot.svg" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/hubspot.svg" alt="Picture"></li>
+              </ul>
+            </div>
+            <div class="tools-card w-[260px] flex flex-col justify-between p-2.5">
+              <strong class="tools-name block text-white text-center p-2.5">会計
+              </strong>
+              <ul class="tools-list flex flex-col gap-5 justify-center items-center pt-5 pb-2.5">
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/free.svg" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/free.svg" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/free.svg" alt="Picture"></li>
+              </ul>
+            </div>
+            <div class="tools-card w-[260px] flex flex-col justify-between p-2.5">
+              <strong class="tools-name block text-white text-center p-2.5">倉庫
+              </strong>
+              <ul class="tools-list flex flex-col gap-5 justify-center items-center pt-5 pb-2.5">
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/logiles.png" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/logiles.png" alt="Picture"></li>
+                <li class="tools-item"><img class="tools-item-img" src="./assets/images/logiles.png" alt="Picture"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ARTICLE FEE -->
+
+    <article class="fee">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="fee-inner py-20 text-center">
+          <div class="fee-inner-wrap w-[580px] mx-auto">
+            <div class="fee-top px-[19px]  flex justify-center items-center mb-6">
+              <img class="me-5" src="./assets/images/line-left.svg" alt="Picture">
+              <p class="fee-company bg-[#F8DA49] py-2.5 px-5 w-[127px] me-5">毎月3社
+                限定</p>
+              <h2 class="fee-title text-white me-5 text-left w-[287px]"> <span class="block">初期費用無料</span>
+                キャンペーン実施中</h2>
+              <img src="./assets/images/line-right.png" alt="Picture">
+            </div>
+            <button class="fee-btn w-full py-4 px-6 text-[#D8663A]">資料請求・導入のご相談はこちらから　▶</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- SERVICE -->
+    <div class="service">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="service-inner py-20">
+          <h2 class="second-title mb-[60px] text-center">ー　サービス料金　ー</h2>
+
+          <table class="support-table border-[#D8663A]   bg-[#D8663A] mb-[60px]">
+            <thead>
+              <tr class="flex ">
+                <th
+                  class="table-name  w-[388px] text-center py-3.5 inline-block  border-w border-[#D8663A]  bg-[#D8663A] service-table-bg bg-[#E2893F] text-white">
+                  モデルプラン</th>
+                <th
+                  class="table-name w-[388px] text-center py-3.5 inline-block border-w border-[#D8663A]   bg-[#D8663A]  service-table-bg bg-[#E2893F] text-white ">
+                  5ユーザー</th>
+                <th
+                  class="table-name w-[388px] text-center py-3.5 inline-block border-w border-[#D8663A]    bg-[#D8663A]  service-table-bg bg-[#E2893F]  text-white">
+                  10ユーザー</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  class="table-info w-[388px] text-center py-3.5 inline-block    bg-[#FCF5F0]  border-w border-[#D8663A] text-[#E2893F] ">
+                  初期費用</td>
+                <td class="table-info w-[388px] text-center py-3.5 inline-block   bg-white  border-w border-[#D8663A] ">
+                  ¥350,450</td>
+                <td class="table-info w-[388px] text-center py-3.5 inline-block   bg-white border-w border-[#D8663A] ">
+                  ¥400,000</td>
+              </tr>
+              <tr>
+                <td
+                  class="table-info w-[388px] text-center py-3.5 inline-block   bg-[#FCF5F0]      border-w border-[#D8663A] text-[#E2893F]">
+                  月額利用料</td>
+                <td class="table-info w-[388px] text-center py-3.5 inline-block   bg-white  border-w border-[#D8663A] ">
+                  ¥53,300</td>
+                <td class="table-info w-[388px] text-center py-3.5 inline-block    bg-white border-w border-[#D8663A] ">
+                  ¥50,000</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 class="second-title text-center mb-10 text-[#D8663A]">料金事例が入ります</h2>
+          <div class="fees-wrap">
+            <div class="fees-top flex items-center gap-10 mb-10 ">
+              <div class="fees-card w-[312px] flex flex-col py-6 items-center justify-center">
+                <span class="fees-cost inline-block mb-2.5">初期費用</span>
+                <span class="fees-cost">金額が入ります</span>
+              </div>
+              <img src="./assets/images/add.png" alt="Picture">
+
+              <div class="fees-card w-[312px] flex flex-col py-6 items-center justify-center">
+                <span class="fees-cost inline-block mb-2.5">月額費用</span>
+                <span class="fees-cost">金額が入ります</span>
+              </div>
+              <img src="./assets/images/flag.png" alt="Picture">
+
+              <div class="fees-card w-[312px] flex flex-col py-6 items-center justify-center fees-res bg-[#E2893F]">
+                <span class="fees-cost inline-block mb-2.5 text-white">金額が入ります</span>
+                <span class="fees-cost text-white">総額</span>
+              </div>
+            </div>
+            <div class="fees-top flex items-center gap-10 ">
+              <div class="fees-card w-[312px] flex flex-col py-6 items-center justify-center">
+                <span class="fees-cost inline-block mb-2.5">初期費用</span>
+                <span class="fees-cost">金額が入ります</span>
+              </div>
+              <img src="./assets/images/add.png" alt="Picture">
+
+              <div class="fees-card w-[312px] flex flex-col py-6 items-center justify-center">
+                <span class="fees-cost inline-block mb-2.5">月額費用</span>
+                <span class="fees-cost">金額が入ります</span>
+              </div>
+              <img src="./assets/images/flag.png" alt="Picture">
+
+              <div class="fees-card w-[312px] flex flex-col py-6 items-center justify-center fees-res bg-[#E2893F]">
+                <span class="fees-cost inline-block mb-2.5 text-white">金額が入ります</span>
+                <span class="fees-cost text-white">総額</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIFFERENCE  -->
+
+    <section class="differ bg-[#F4F9F8]">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="differ-inner py-20">
+          <h2 class="second-title text-center py-10 ">ー　他社との違い　ー</h2>
+          <div class="differ-body flex justify-between items-start ">
+            <table class=" differ-table mb-[60px]">
+              <thead>
+                <tr>
+                  <th class="w-[240.5px] border-none "> </th>
+                  <th class="table-name w-[240.5px] text-center py-3.5   border-w differ-name-bg text-white">
+                    A社</th>
+                  <th class="table-name w-[240.5px] text-center py-3.5  border-w  differ-name-bg text-white ">
+                    B社</th>
+                  <th class="table-name w-[240.5px] text-center py-3.5  border-w  differ-name-bg  text-white">
+                    C社</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table-info w-[240.5px] text-center py-10     border-b-0 differ-border">
+                    初期費用</td>
+                  <td class="table-info w-[240.5px] text-center    border-w">¥252,450
+                  </td>
+                  <td class="table-info w-[240.5px] text-center     border-w ">¥275,000
+                  </td>
+                  <td class="table-info w-[240.5px] text-center     border-w ">¥165,000
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-info w-[240.5px] text-center py-6        border-b-0 differ-border">
+                    月額 </td>
+                  <td class="table-info w-[240.5px] text-center     border-w">¥574,750
+                  </td>
+                  <td class="table-info w-[240.5px] text-center     border-w">¥624,800
+                  </td>
+                  <td class="table-info w-[240.5px] text-center     border-w">¥484,000
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-info w-[240.5px] text-center py-6        border-b-0 differ-border">
+                    開発費用 </td>
+                  <td class="table-info w-[240.5px] text-center     border-w">¥574,750
+                  </td>
+                  <td class="table-info w-[240.5px] text-center     border-w">¥624,800
+                  </td>
+                  <td class="table-info w-[240.5px] text-center     border-w">¥484,000
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-info w-[240.5px] text-center py-6       border-b-0 differ-border">
+                    カスタマイズ性 </td>
+                  <td class="table-info w-[240.5px] text-center     border-w"> <img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                  <td class="table-info w-[240.5px] text-center     border-w"><img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                  <td class="table-info w-[240.5px] text-center     border-w"><img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                </tr>
+                <tr>
+                  <td class="table-info w-[240.5px] text-center py-6      border-b-0 differ-border">
+                    基本機能 </td>
+                  <td class="table-info w-[240.5px] text-center     border-w"> <img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                  <td class="table-info w-[240.5px] text-center     border-w"><img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                  <td class="table-info w-[240.5px] text-center     border-w"><img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                </tr>
+                <tr>
+                  <td class="table-info w-[240.5px] text-center py-6     border-b-0  differ-border">
+                    外部連携</td>
+                  <td class="table-info w-[240.5px] text-center     border-w"> <img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                  <td class="table-info w-[240.5px] text-center     border-w"><img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                  <td class="table-info w-[240.5px] text-center     border-w"><img class="mx-auto"
+                      src="./assets/images/circle-black.png" alt="Picture"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="differ-results w-[184px]">
+              <img class="differ-pic py-2.5 px-[30px]" src="./assets/images/hubs.png" alt="Picture">
+              <ul class="differ-list">
+                <li class="differ-item py-6 px-2 text-center text-white"> <span class="block">300,000円</span>
+                  毎月3社限定で0円</li>
+                <li class="differ-item py-6 px-2.5 text-center text-white">33,000円〜</li>
+                <li class="differ-item py-6 px-2.5 text-center text-white">2,000,000円〜</li>
+                <li class="differ-item py-6 px-2.5 text-center text-white"><img class="differ-img mx-auto"
+                    src="./assets/images/circle-white.png" alt="Picture"></li>
+                <li class="differ-item py-6 px-2.5 text-center text-white"><img class="differ-img mx-auto"
+                    src="./assets/images/circle-white.png" alt="Picture"></li>
+                <li class="differ-item py-6 px-2.5 text-center text-white"><img class="differ-img mx-auto"
+                    src="./assets/images/circle-white.png" alt="Picture"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTICLE FEE -->
+
+    <article class="fee">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="fee-inner py-20 text-center">
+          <div class="fee-inner-wrap w-[580px] mx-auto">
+            <div class="fee-top px-[19px]  flex justify-center items-center mb-6">
+              <img class="me-5" src="./assets/images/line-left.svg" alt="Picture">
+              <p class="fee-company bg-[#F8DA49] py-2.5 px-5 w-[127px] me-5">毎月3社
+                限定</p>
+              <h2 class="fee-title text-white me-5 text-left w-[287px]"> <span class="block">初期費用無料</span>
+                キャンペーン実施中</h2>
+              <img src="./assets/images/line-right.png" alt="Picture">
+            </div>
+            <button class="fee-btn text-[#D8663A] w-full py-4 px-6 text-[#D8663A]">資料請求・導入のご相談はこちらから　▶</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PROCESS -->
+    <section class="process">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="process-inner py-20">
+          <h2 class="second-title text-center mb-10">ー　導入の流れ　ー</h2>
+          <ol class="process-list">
+            <li class="process-item flex mb-5">
+              <div class="process-left text-center me-5">
+                <span class="process-step text-[#D8663A] inline-block mb-2">STEP 01</span>
+                <img class="process-pic mb-5" src="./assets/images/step-one.png" alt="Picture">
+                <span class="process-line w-[5px] bg-[#D8663A] h-[50px] rounded inline-block "></span>
+              </div>
+              <div class="process-right">
+                <strong class="process-subtitle inline-block mb-4">こちらのフォームよりお問い合わせください</strong>
+                <div class="process-info-wrap p-5 w-[740px]">
+                  <p class="process-desc">文章文章文章文章文章文章文章文章 文章文章文章文章文章 文章文章文章文章文章</p>
+                </div>
+              </div>
+            </li>
+            <li class="process-item flex mb-5">
+              <div class="process-left text-center me-5">
+                <span class="process-step text-[#D8663A] inline-block mb-2">STEP 02</span>
+                <img class="process-pic mb-5" src="./assets/images/step-two.png" alt="Picture">
+                <span class="process-line w-[5px] bg-[#D8663A] h-[50px] rounded inline-block "></span>
+              </div>
+              <div class="process-right">
+                <strong class="process-subtitle inline-block mb-4">デモ説明・ヒアリング</strong>
+                <div class="process-info-wrap p-5 w-[740px]">
+                  <p class="process-desc"> 改めてお時間を頂戴し、貴社に最適なプラン、システムをご提案させていただきます。 </p>
+                </div>
+              </div>
+            </li>
+            <li class="process-item flex mb-5">
+              <div class="process-left text-center me-5">
+                <span class="process-step text-[#D8663A] inline-block mb-2">STEP 03</span>
+                <img class="process-pic mb-5" src="./assets/images/step-three.png" alt="Picture">
+                <span class="process-line w-[5px] bg-[#D8663A] h-[50px] rounded inline-block "></span>
+              </div>
+              <div class="process-right">
+                <strong class="process-subtitle inline-block mb-4">ご提案</strong>
+                <div class="process-info-wrap p-5 w-[740px]">
+                  <p class="process-desc">改めてお時間を頂戴し、貴社に最適なプラン、システムをご提案させていただきます。、貴社に最適なプラン、システムをご提案させていただきます。</p>
+                </div>
+              </div>
+            </li>
+            <li class="process-item flex mb-5">
+              <div class="process-left text-center me-5">
+                <span class="process-step text-[#D8663A] inline-block mb-2">STEP 04</span>
+                <img class="process-pic mb-5" src="./assets/images/step-four.png" alt="Picture">
+                <span class="process-line w-[5px] bg-[#D8663A] h-[50px] rounded inline-block "></span>
+              </div>
+              <div class="process-right">
+                <strong class="process-subtitle inline-block mb-4">要件定義</strong>
+                <div class="process-info-wrap p-5 w-[740px]">
+                  <p class="process-desc"> ご発注をいただけた場合は、ご提案内容からさらに深ぼってシステムの詳細仕様をすり合わせていただきます。 </p>
+                </div>
+              </div>
+            </li>
+            <li class="process-item flex mb-5">
+              <div class="process-left text-center me-5">
+                <span class="process-step text-[#D8663A] inline-block mb-2">STEP 05</span>
+                <img class="process-pic mb-5" src="./assets/images/step-five.png" alt="Picture">
+                <span class="process-line w-[5px] bg-[#D8663A] h-[50px] rounded inline-block "></span>
+              </div>
+              <div class="process-right">
+                <strong class="process-subtitle inline-block mb-4">システム設計・開発</strong>
+                <div class="process-info-wrap p-5 w-[740px]">
+                  <p class="process-desc"> 開発が必要になった場合は、設計・開発を進めさせていただきます。 スケジュールはお客様によって違いがございます。 </p>
+                </div>
+              </div>
+            </li>
+            <li class="process-item flex mb-5">
+              <div class="process-left text-center me-5">
+                <span class="process-step text-[#D8663A] inline-block mb-2">STEP 06</span>
+                <img class="process-pic mb-5" src="./assets/images/step-six.png" alt="Picture">
+                <span class="process-line w-[5px] bg-[#D8663A] h-[50px] rounded inline-block "></span>
+              </div>
+              <div class="process-right">
+                <strong class="process-subtitle inline-block mb-4">導入・運用</strong>
+                <div class="process-info-wrap p-5 w-[740px]">
+                  <p class="process-desc">導入準備、運用テスト後に、既存ツールのデータを入れ込んで稼働開始となります。</p>
+                </div>
+              </div>
+            </li>
+            <li class="process-item flex mb-5">
+              <div class="process-left text-center me-5">
+                <span class="process-step text-[#D8663A] inline-block mb-2">STEP 07</span>
+                <img class="process-pic mb-5" src="./assets/images/step-one.png" alt="Picture">
+              </div>
+              <div class="process-right">
+                <strong class="process-subtitle inline-block mb-4">保守</strong>
+                <div class="process-info-wrap p-5 w-[740px]">
+                  <p class="process-desc">アップデート内容のメール通知・機能追加・カスタマイズ・お問い合わせ等のサポート体制を完備しています。</p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXAMPLES -->
+
+    <section class="examples bg-[#F4F9F8]">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="example-inner py-20">
+          <h2 class="second-title mb-10 text-center">ー　導入事例　ー</h2>
+          <div class="example-cards flex justify-between ">
+            <div class="example-card w-[360px] p-2.5">
+              <img class="example-img mb-3" src="./assets/images/card-img.png" alt="Picture">
+              <div class="example-card-inner px-2.5">
+                <a class="example-link w-[130px] inline-block p-[5px] mb-2.5" href="#">
+                  <img class="example-link-pic" src="./assets/images/payment.png" alt="Picture"></a>
+                <strong class="example-name block mb-1">SBペイメントサービス様</strong>
+                <p class="example-desc pb-2.5">コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコ</p>
+              </div>
+            </div>
+            <div class="example-card w-[360px] p-2.5">
+              <img class="example-img mb-3" src="./assets/images/card-img.png" alt="Picture">
+              <div class="example-card-inner px-2.5">
+                <a class="example-link w-[130px] inline-block p-[5px] mb-2.5" href="#">
+                  <img class="example-link-pic" src="./assets/images/payment.png" alt="Picture"></a>
+                <strong class="example-name block mb-1">SBペイメントサービス様</strong>
+                <p class="example-desc pb-2.5">コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコ</p>
+              </div>
+            </div>
+            <div class="example-card w-[360px] p-2.5">
+              <img class="example-img mb-3" src="./assets/images/card-img.png" alt="Picture">
+              <div class="example-card-inner px-2.5">
+                <a class="example-link w-[130px] inline-block p-[5px] mb-2.5" href="#">
+                  <img class="example-link-pic" src="./assets/images/payment.png" alt="Picture"></a>
+                <strong class="example-name block mb-1">SBペイメントサービス様</strong>
+                <p class="example-desc pb-2.5">コンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコンテンツが入りますコ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  OTHER -->
+
+    <section class="other">
+      <div class="container  w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="other-inner py-20">
+          <h2 class="second-title text-center mb-10">ー　その他のサービス事業　ー</h2>
+          <img class="other-pic" src="./assets/images/partners.png" alt="Picture">
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDY -->
+
+    <section class="study bg-[#FCF5F0]">
+      <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+        <div class="study-inner py-20">
+          <h2 class="second-title text-center mb-10">ー　導入事例　ー</h2>
+          <div class="study-body p-10 ">
+            <h3 class="study-subtitle mb-5">お問い合わせ内容</h3>
+            <p class="study-desc mb-[60px]">お問い合わせには、以下の必須項目の入力をお願いいたします。</p>
+            <form class="study-form flex flex-wrap justify-between" action="">
+              <div class="form-infos mb-5">
+                <label class="form-label mb-2 block" for="">姓</label>
+                <input class="form-inp bg-[#F6F6F6] py-[15px] px-6 w-[520px]" type="text">
+              </div>
+              <div class="form-infos mb-5">
+                <label class="form-label mb-2 block" for="">名</label>
+                <input class="form-inp bg-[#F6F6F6] py-[15px] px-6 w-[520px]" type="text">
+              </div>
+              <div class="form-infos mb-5">
+                <label class="form-label mb-2 block" for="">会社・組織名</label>
+                <input class="form-inp bg-[#F6F6F6] py-[15px] px-6 w-[520px]" type="text">
+              </div>
+              <div class="form-infos mb-5">
+                <label class="form-label mb-2 block" for="">メールアドレス</label>
+                <input class="form-inp bg-[#F6F6F6] py-[15px] px-6 w-[520px]" type="text">
+              </div>
+              <div class="form-infos mb-5">
+                <label class="form-label mb-2 block" for="">メールアドレス</label>
+                <input class="form-inp bg-[#F6F6F6] py-[15px] px-6 w-[520px]" type="text">
+              </div>
+              <div class="form-infos mb-5">
+                <label class="form-label mb-2 block" for="">電話番号</label>
+                <input class="form-inp bg-[#F6F6F6] py-[15px] px-6 w-[520px]" type="text">
+              </div>
+
+              <div class="form-infos  w-full mb-[60px]">
+                <label class="form-label block mb-2" for="">お問い合わせ内容</label>
+                <textarea class="form-inp bg-[#F6F6F6] w-full h-[150px]  py-[15px] px-6" name="" id=""></textarea>
+
+              </div>
+
+            </form>
+
+            <p class="study-subtitle mb-5">個人情報の取り扱いについて</p>
+            <span class="study-subtitle mb-5 inline-block">確認欄</span>
+            <div class="study-info-wrapper">
+              <p class="study-info mb-3">
+                <input class="me-2 " id="" type="checkbox">
+                個人情報の取扱いについて、同意の上送信します。原則としていただいた個人情報は、第三者に提供することはございません。
+              </p>
+              <span class="study-info block mb-[60px]">
+
+                当社の個人情報保護に関する取り組みについては、
+                <a class="study-link text-[#D8663A] " href="#"> プライバシーポリシーの個人情報の取り扱いについて
+                </a>
+                <span class="text-[#F6F6F6]">
+                  をご覧ください。 以上の個人情報の利用目的等にご同意いただける場合は、入力内容を送信ください
+                </span>
+              </span>
+
+              <button
+                class="study-btn w-[192px] bg-[#D8663A] block  text-white text-center py-4 align-right ml-auto">確認</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot bg-[#D8663A]">
+    <div class="container w-[1200px] mx-auto my-0 px-[20px]">
+      <div class="foot-inner py-20 flex">
+        <div class="foot-infos-wrap flex gap-20">
+
+          <div class="foot-info w-[168px]">
+            <span class="foot-name text-white inline-block mb-5">TOP</span>
+            <ul class="foot-list text-white flex flex-col gap-5">
+              <li class="foot-item"><a class="foot-link" href="#">インフォメーション</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">導入事例／資料</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">お役立ちブログ</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">ITビジネスパートナー募集</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">お問い合わせ</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">メールマガジン登録</a></li>
+            </ul>
+          </div>
+          <div class="foot-info w-[168px]">
+            <span class="foot-name text-white inline-block mb-5">サービス</span>
+            <ul class="foot-list text-white flex flex-col gap-5">
+              <li class="foot-item"><a class="foot-link" href="#">コンサルティング</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">システム／クラウド開発</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">お役立ちブログ</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">ＡＩ／クラウド製品</a></li>
+
+            </ul>
+          </div>
+          <div class="foot-info w-[168px]">
+            <span class="foot-name text-white inline-block mb-5">インフォメーション</span>
+            <ul class="foot-list text-white flex flex-col gap-5">
+              <li class="foot-item"><a class="foot-link" href="#">導入事例／資料</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">お役立ちブログ</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">ITビジネスパートナー募集</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">お問い合わせ</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">メールマガジン登録</a></li>
+            </ul>
+          </div>
+          <div class="foot-info w-[168px]">
+            <ul class="foot-list text-white flex flex-col gap-5">
+              <li class="foot-item"><a class="foot-link" href="#">企業情報</a></li>
+              <li class="foot-item"><a class="foot-link" href="#">採用情報</a></li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="foot-social ">
+          <a class="foot-logo text-center" href="#">
+            <img class="foot-logo-pic mb-5 mx-auto" src="./assets/images/logo-foot.svg" alt="Picture"></a>
+
+          <ul class="foot-social-list flex gap-5">
+            <li class="foot-social-item"><a class="foot-social-link" href="#"><img class="foot-social-pic"
+                  src="./assets/images/facebook.svg" alt="Picture"></a></li>
+            <li class="foot-social-item"><a class="foot-social-link" href="#"><img class="foot-social-pic"
+                  src="./assets/images/twitter.svg" alt="Picture"></a></li>
+            <li class="foot-social-item"><a class="foot-social-link" href="#"><img class="foot-social-pic"
+                  src="./assets/images/instagram.svg" alt="Picture"></a></li>
+            <li class="foot-social-item"><a class="foot-social-link" href="#"><img class="foot-social-pic"
+                  src="./assets/images/line 1.svg " alt="Picture"></a></li>
+            <li class="foot-social-item"><a class="foot-social-link" href="#"><img class="foot-social-pic"
+                  src="./assets/images/youtube.svg" alt="Picture"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
